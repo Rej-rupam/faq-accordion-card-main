@@ -1,0 +1,136 @@
+* {
+  margin: 0px;
+}
+.page {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(
+    to bottom,
+    hsl(273, 75%, 66%),
+    hsl(240, 73%, 65%)
+  );
+}
+.card {
+  height: 400px;
+  width: 750px;
+  display: flex;
+  background-color: white;
+  border-radius: 20px;
+}
+.box1 {
+  height: 100%;
+  width: 50%;
+  align-items: center;
+  border-radius: 20px 0px 0px 20px;
+  position: relative;
+  background-image: url(./images/bg-pattern-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: 700px;
+  background-position: -350px -200px;
+}
+.box2 {
+  height: 100%;
+  width: 50%;
+  border-radius: 0px 20px 20px 0px;
+}
+.girl {
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+}
+.main-image {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  margin-left: -70px;
+  margin-top: -30px;
+}
+.box-image {
+  height: 150px;
+  width: 150px;
+  top: 34%;
+  margin-left: -69px;
+  position: absolute;
+}
+.box {
+  height: 140px;
+  width: 150px;
+}
+.text {
+  height: 370px;
+  margin: 10px 30px 20px 20px;
+}
+.text h1 {
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+.dropdown-1 {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: solid;
+  border-width: 0.5px;
+  border-color: hsl(240, 6%, 50%);
+  margin-top: 10px;
+  color: hsl(240, 6%, 50%);
+}
+.dropdown-2 {
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: first baseline;
+  justify-content: space-between;
+  border-bottom: solid;
+  border-width: 0.5px;
+  border-color: hsl(240, 6%, 50%);
+  margin-top: 10px;
+  color: hsl(240, 6%, 50%);
+}
+.dropdown-2 img {
+  transform: rotate(180deg);
+}
+.dropdown-2 h5 {
+  margin-bottom: 10px;
+  color: black;
+}
+.dropdown-3 {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: solid;
+  border-width: 0.5px;
+  border-color: hsl(240, 6%, 50%);
+  margin-top: 10px;
+  color: hsl(240, 6%, 50%);
+}
+.dropdown-4 {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: solid;
+  border-width: 0.5px;
+  border-color: hsl(240, 6%, 50%);
+  margin-top: 10px;
+  color: hsl(240, 6%, 50%);
+}
+.dropdown-5 {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: solid;
+  border-width: 0.5px;
+  border-color: hsl(240, 6%, 50%);
+  margin-top: 10px;
+  color: hsl(240, 6%, 50%);
+}
